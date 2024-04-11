@@ -1,0 +1,288 @@
+body{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+h1{
+    flex-basis: 100%;
+}
+
+#header{
+    background-image: url("images/blue-sky.jpg");
+    flex-basis:48%;
+    margin: 5px;
+    height: auto;
+    background-size: cover;
+}
+
+#MyData{
+    background-color:lightblue;
+    flex-basis: 45%;
+    margin: 5px;
+    height: auto;
+}
+
+#TRAQ{
+    flex-basis: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    height: auto;
+
+}
+
+#forecast{
+    flex-basis: 95%;
+    background-color: lightgrey;
+    margin: 5px;
+    height: auto;
+
+}
+
+
+
+#weather{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.wea>img{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+
+#warn_time{
+    display: flex;
+    position: relative;
+    /*justify-content: space-between;*/
+}
+
+.w_t{
+margin: 3px;
+}
+
+#my_wea{
+    display: flex;
+    justify-content: space-around;
+}
+
+#MyData div{
+    margin-left: 10px;
+}
+#blk1{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#blk2{
+    width: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+
+}
+#blk2 p{
+    font-size: large;
+    margin-top: -25px;
+}
+
+#blk2 img{
+    margin-bottom: 20px;
+}
+
+#blk3{
+    width: auto;
+    display: flex;
+    font-size: x-large;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+#blk3_child p{
+    size: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.my_wea{
+    width: 25%;
+    margin: 1rem;
+}
+
+#T, #R, #AQ{
+    height: 282px;
+    width: 32%;
+    background-color: lightgoldenrodyellow;
+}    
+
+#R{
+    width: 32%;
+    background-color: lightsteelblue;
+}    
+
+#AQ{
+    width: 32%;
+    background-color: lightcyan;
+}    
+    
+
+#nine_days{
+    display: flex;
+    justify-content: space-between;
+}
+
+#title{
+    margin-left: 10px;
+    font-size: xx-large;
+}
+
+.wea{
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    width: 25%;
+    margin: 1rem;
+}
+
+#C_unit{
+    font-size: x-large;
+    margin-top: 0.5rem;
+}
+
+
+
+.wea p{
+    font-size: x-large;
+    margin-top: -3rem;
+}
+
+.wea img{
+    margin-bottom: 2rem;
+}
+
+#UV{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+#UV img{
+    margin-bottom: 1rem;
+}
+
+#warning{
+    flex-basis: 60%;
+    left: 0;
+    bottom: 10px;
+
+}
+#bttn{
+    background-color: lightcoral;
+    margin-bottom: 5px;
+}
+#msgbox{
+    background-color: lightcoral;
+    margin-top: -0.5rem;
+    margin-bottom: 0;
+    font-size: small;
+    height: auto;
+}
+
+#msgbox p{
+    margin-top: 2px;
+    margin-bottom: 0px;
+
+}
+#update{
+    font-weight: bold;
+    flex-basis: 35%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#tem, #rain, #aq{
+    margin-left: 10px;
+}
+
+select{
+    margin-left: 10px;
+}
+#output_T{
+    font-weight: bold;
+    display: flex;
+    font-size: 50px;
+    margin-left: 10%;
+    height: auto;
+}
+
+#output_T #C_unit{
+    margin-top: 3.5rem;
+}
+
+#output_R{
+    font-weight: bold;
+    display: flex;
+    font-size: 50px;
+    margin-left: 10%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+#output_R #R_unit{
+    margin-top: 5rem;
+    font-size: large;
+
+}
+
+#output_AQ{
+    height: auto;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 2.5rem;
+}
+
+#output_AQ p{
+    margin: 1rem;
+}
+
+#day{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#day #for_icon{
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+#day #fore_p{
+    font-weight: bold;
+}
+
+@media (max-width: 500px){
+    body{
+        width: 50%;
+        display: block;
+        background-color: aqua;
+    }
+    h1{
+        color: azure ;
+    }
+    #header{
+        background-color: aqua;
+    }
+    #T{
+        margin-top: 10rem;
+    }
+}
