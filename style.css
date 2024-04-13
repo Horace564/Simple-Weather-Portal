@@ -270,19 +270,3 @@ select{
     font-weight: bold;
 }
 
-@media (max-width: 500px){
-    body{
-        width: 50%;
-        display: block;
-        background-color: aqua;
-    }
-    h1{
-        color: azure ;
-    }
-    #header{
-        background-color: aqua;
-    }
-    #T{
-        margin-top: 10rem;
-    }
-}
