@@ -9,7 +9,7 @@ iii) Temperature, Rainfall, Air Quality of selected districts/locations
 iv) 9-day weather forecast of Hong Kong  
 
 
-## source code
+## Source code
 index.html: empty content, the templete of the web page will be dynamically generated when main.js being executed  
 main.css: styling file  
 main.js:   
