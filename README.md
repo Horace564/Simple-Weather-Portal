@@ -10,9 +10,9 @@ iv) 9-day weather forecast of Hong Kong
 
 
 ## Source code
-index.html: empty content, the templete of the web page will be dynamically generated when main.js being executed  
-main.css: styling file  
-main.js:   
+**index.html**: empty content, the templete of the web page will be dynamically generated when main.js being executed  
+**main.css**: styling file  
+**main.js**:   
   i) generate Document Object Model of the application;   
   ii) fetch open data from several APIs and process the returned data;  
   iii) implement envent handlers for user's events  
