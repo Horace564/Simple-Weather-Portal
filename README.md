@@ -14,7 +14,7 @@ index.html: empty content, the templete of the web page will be dynamically gene
 main.css: styling file  
 main.js:   
   i) generate Document Object Model of the application;   
-  ii) fetch open data from several APIs and process the returned data  
+  ii) fetch open data from several APIs and process the returned data;  
   iii) implement envent handlers for user's events  
 
   
