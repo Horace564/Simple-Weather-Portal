@@ -1,4 +1,4 @@
-# Simple_Weather_Protal
+# Simple_Weather_Portal
 
 
 ## Functionality
